@@ -1,0 +1,124 @@
+html,body{
+    margin:0;
+    padding:0;
+    /* background-color: #36096d;
+    background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%); */
+     /* background-image: url("../backgrounds/clearsky.jpg");  */
+    background-repeat:no-repeat;
+    background-size: 100%;
+    height:100%;
+    font-family: 'Montserrat', sans-serif;
+}
+.inputs{
+    text-align: center;
+    width:100%;
+    padding-top:80px;
+}
+
+input[type="text"]{
+    height:40px;
+    width:600px;
+    background-color:lightgray;
+    font-size:17px;
+    border:0px;
+}
+
+input[type="submit"]{
+    height:40px;
+    width:80px;
+    background-color:gray;
+    font-size:17px;
+    border:0px;
+}
+
+#infoContainer{
+    text-align: center;
+}
+
+#timer{
+    float:left;
+    margin:0;
+    font-size:35px;
+    margin-top:10px;
+    margin-bottom:12%;
+    width:48%;
+    color:white;
+    text-align: left;
+    padding-left:2%;
+    font-family: 'Staatliches', cursive;
+    -webkit-text-stroke: 2px black;
+
+}
+#showWeekDays{
+    float:left;
+    margin:0;
+    font-size:35px;
+    margin-top:10px;
+    margin-bottom:12%;
+    width:48%;
+    padding-right:2%;
+    text-align: right;
+    font-family: 'Staatliches', cursive;
+    color:white;
+    -webkit-text-stroke: 2px black;
+}
+
+#values{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-size:35px;
+    font-family: 'Righteous', cursive;
+    -webkit-text-stroke: 2px black;
+    color:white;    
+    background-position: inherit;
+    z-index:5;
+}
+
+#bg-image{
+    filter: blur(15px);
+    -webkit-filter: blur(15px);
+    background: inherit;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 60%;
+    padding: 20px;
+    text-align: center;
+    height:50%;
+}
+#bg-text{
+    -webkit-text-stroke: 2px black;
+    color:white;    
+    font-family: 'Righteous', cursive;
+    font-size:35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    border:2px solid gray;
+    width: 60%;
+    height:50%;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+#city{
+    font-size:20px;
+    font-weight: bold;
+}
+
+b{
+    font-size:18px;
+}
+
+#icon{
+    margin-bottom: -10px;
+}
+

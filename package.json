@@ -1,0 +1,19 @@
+{
+  "name": "projekt1",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "electron": "^11.2.3"
+  },
+  "dependencies": {
+    "request": "^2.88.2",
+    "require": "^2.4.20"
+  }
+}
